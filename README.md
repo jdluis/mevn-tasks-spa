@@ -11,7 +11,7 @@
 ## Organization of Branch
  #### Order -->  Brach
    
-  - Production --> main
-  - Developing --> Develop
-  - BackEnd--> backend
-  - FrontEnd --> frontend
+ - Production --> main
+   - Developing --> Develop
+     - BackEnd--> backend
+     - FrontEnd --> frontend
