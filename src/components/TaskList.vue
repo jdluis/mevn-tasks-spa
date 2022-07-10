@@ -4,6 +4,7 @@
     <ul>
         <li 
         style="cursor: pointer"
+        class="text-3xl font-bold underline"
         v-for="(task, index) in tasks"
         :key="index"
         @click="$router.push(`/tasks/${task._id}`)" 
