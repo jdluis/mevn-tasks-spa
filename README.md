@@ -13,5 +13,4 @@
    
  - Production --> main
    - Developing --> Develop
-     - BackEnd--> backend
-     - FrontEnd --> frontend
+     - Template-for-new-proyects
