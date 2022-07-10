@@ -14,3 +14,11 @@
  - Production --> main
    - Developing --> Develop
      - Template-for-new-proyects
+     
+     
+## Technologies used in this proyect:
+   #### Vite --> Vue3
+   #### Node.js --> Express & Axios
+   #### Typescript.js
+   #### MongoDB (Atlas) --> mongoose
+   #### TailwindCss
