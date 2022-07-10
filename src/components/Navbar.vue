@@ -3,10 +3,10 @@
     <nav>
         <ul>
             <li>
-                <a href="/">Tasks List</a>
+                <router-link to="/">Tasks List</router-link>
             </li>
             <li>
-                <a href="/tasks/new">Create Task</a>
+                <router-link to="/tasks/new">Create Task</router-link>
             </li>
         </ul>
     </nav>

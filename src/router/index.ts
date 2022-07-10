@@ -21,8 +21,6 @@ const routes: RouteRecordRaw[] = [
     },
 ];
 
-
-/* console.log(process.env.BASE_URL); */
 const router = createRouter({
     history: createWebHistory(),
     routes,
