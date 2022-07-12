@@ -10,8 +10,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue"
-import { Task } from "../interfaces/Task"
-import { createTask } from "../services/TaskServices"
+import { Task } from "../../interfaces/Task"
+import { createTask } from "../../services/TaskServices"
 
 export default defineComponent({
     data() {

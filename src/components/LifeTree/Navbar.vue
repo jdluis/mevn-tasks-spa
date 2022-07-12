@@ -1,5 +1,5 @@
 <template>
-    <h1>Nav Bar</h1>
+    <h1 >Nav Bar</h1>
     <nav>
         <ul>
             <li>
@@ -7,7 +7,7 @@
             </li>
             <li>
                 <router-link to="/tasks/new">Create Task</router-link>
-            </li>
+            </li>   
         </ul>
     </nav>
 </template>
