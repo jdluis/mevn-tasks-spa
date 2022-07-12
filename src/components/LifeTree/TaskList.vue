@@ -21,20 +21,7 @@
             <span>-----</span>
         </div>
 
-        <div>
-             <ul>
-                <li 
-                style="cursor: pointer"
-                class="text-3xl font-bold underline"
-                v-for="(task, index) in tasks"
-                :key="index"
-                @click="$router.push(`/tasks/${task._id}`)" 
-                >
-                    {{ index + 1 }}
-                    {{ task.title }}
-                </li>
-            </ul>
-        </div>
+        
 
     </div>
 

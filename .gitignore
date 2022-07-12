@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Segurity
+mevn-tasks-spa/server/database.ts
+dist
