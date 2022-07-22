@@ -1,6 +1,7 @@
 <template>
     <form @submit.prevent="saveTask()">
         <input type="text" placeholder="Write title" v-model="task.title" />
+        <input type="date" placeholder="Write title" v-model="task.title" />
 
         <textarea placeholder="Write a description" rows="3" v-model="task.description"></textarea>
 
@@ -10,8 +11,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue"
-import { Task } from "../../interfaces/Task"
-import { createTask } from "../../services/TaskServices"
+import { Task } from "../interfaces/Task"
+import { createTask } from "../services/TaskServices"
 
 export default defineComponent({
     data() {

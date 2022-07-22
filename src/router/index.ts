@@ -5,19 +5,19 @@ const routes: RouteRecordRaw[] = [
         path: "/",
         alias: "/tasks",
         name: "tasks",
-        component: () => import("../components/LifeTree/TaskList.vue"),
+        component: () => import("../components/TaskList.vue"),
     },
     {
-        path: "/",
+        path: "/tasks/new",
         alias: "/tasks/new",
         name: "tasks-new",
-        component: () => import("../components/LifeTree/TaskForm.vue"),
+        component: () => import("../components/TaskForm.vue"),
     },
     {
         path: "/:_id",
         alias: "/tasks/:_id",
         name: "task-details",
-        component: () => import("../components/LifeTree/TaskDetails.vue"),
+        component: () => import("../components/TaskDetails.vue"),
     },
 ];
 

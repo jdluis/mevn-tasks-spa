@@ -31,8 +31,8 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import { Task } from '../../interfaces/Task';
-import { getTasks } from '../../services/TaskServices';
+import { Task } from '../interfaces/Task';
+import { getTasks } from '../services/TaskServices';
 
 
 //MIRAR COMO AÑADIR UNA FECHA UNICA CAADA VEZ QUE SE CREE LA TAREA

@@ -1,19 +1,19 @@
 
 <template>
-  <LifeTree/>
-  <div class="m-auto w-max ">
+  <NavBar/>
+  <div class="mt-20 m-auto w-max ">
     <router-view></router-view>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import LifeTree from './components/LifeTree.vue';
+import NavBar from './components/Navbar.vue'
 
 export default defineComponent({
   name: "App",
   components: {
-    LifeTree,
+    NavBar,
 },
 });
 
