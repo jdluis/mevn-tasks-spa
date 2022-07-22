@@ -1,5 +1,6 @@
 export interface Task {
     _id: null;
+    date: Date;
     title: string;
     description: string;
     done: boolean;

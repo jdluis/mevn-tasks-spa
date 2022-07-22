@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Rubik+Mono+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.linksNav {
+    left: 0px;
+    top: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.415em;
+} 
+
+.linksNav:hover {
+    color: #42C920;
+}
+
+
+.textTyping {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 13ch;
+
+    animation: typing 2s steps(13), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
