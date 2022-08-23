@@ -12,9 +12,20 @@ const taskSchema = new Schema({
         required: true,
         trim: true,
     },
-    done: {
+    category: {
+        type: String,
+        required: true,
+        trim: true,
+    },
+    status: {
         type: Boolean,
         default: false,
+        trim: true
+    },
+    date: {
+        type: Date,
+        required: false,
+        trim: true,
     },
 },
     {

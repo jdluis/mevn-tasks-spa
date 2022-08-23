@@ -1,9 +1,10 @@
 export interface Task {
     _id: null;
     date: Date;
+    category: string;
     title: string;
     description: string;
-    done: boolean;
+    status: boolean;
   }
 
 /*

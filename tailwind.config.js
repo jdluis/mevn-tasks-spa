@@ -23,8 +23,10 @@ module.exports = {
         white:          "#e6f1ff",
         green:          "#64ffda",
         green_tint:     "rgba(100,255,218,0.1)",
+        green_normal:   "green",
         pink:           "#f57dff",
         blue:           "#57cbff",
+        red:            "red",
       },
       fontFamily: {
         rubikMonoOne: ["Rubik Mono One", "sans-serif"],

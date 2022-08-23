@@ -1,8 +1,8 @@
 
 <template>
-  <NavBar/>
-  <div class="mt-20 m-auto w-max ">
-    <router-view></router-view>
+      <NavBar/>
+  <div class="mt-20">
+      <router-view></router-view>
   </div>
 </template>
 
