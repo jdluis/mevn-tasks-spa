@@ -13,7 +13,6 @@
    
  - Production --> main
    - Developing --> Develop
-     - Template-for-new-proyects
      
      
 ## Technologies used in this proyect:
@@ -22,3 +21,4 @@
    #### Typescript.js
    #### MongoDB (Atlas) --> mongoose
    #### TailwindCss
+   #### dotenv
