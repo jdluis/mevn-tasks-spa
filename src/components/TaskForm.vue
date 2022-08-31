@@ -1,6 +1,7 @@
 <template>
     <form @submit.prevent="saveTask()">
         <input type="text" placeholder="Write title" v-model="task.title" />
+        <input type="date" placeholder="Write title" v-model="task.title" />
 
         <textarea placeholder="Write a description" rows="3" v-model="task.description"></textarea>
 
