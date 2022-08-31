@@ -1,5 +1,5 @@
 <template>
-    <form @submit.prevent="saveTask()" class="w-full m-auto max-w-lg">
+    <form @submit.prevent="saveTask()" class="w-full m-auto max-w-lg border-spacing-24 p-20 bg-navy bg-opacity-40 border">
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <button>Save</button>
+        <button class="py-2 px-4 bg-navy text-green rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" >Save</button>
     </form>
 </template>
 

@@ -1,25 +1,9 @@
 <template>
-<!-- <div class="bg-navy fixed top-0 border-b-2 border-white m-auto  w-screen ">
-    <nav class="font-inter">
-        <ul class="text-white flex-wrap flex gap-5 flex-row ">
-            <li 
-                v-for="(route, index) in navLink" 
-                :key="index" 
-                class="text-2xl h-14 pt-3 active:bg-opacity-50 hover:bg-light_slate hover:text-primary_Black">
-                <router-link 
-                    class="h-full w-full p-5" 
-                    :to="route.link">{{ route.title }}
-                </router-link>
-            </li>
-        </ul>
-    </nav>
-
-</div> -->
 <nav class="bg-navy border-gray-200 px-2 sm:px-4 py-2.5 rounded">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
-    <a href="/" class="flex items-center">
+    <router-link :to="navLink[0].link" class="flex items-center">
         <span class="self-center underline text-xl font-semibold whitespace-nowrap text-white">Make Your Day</span>
-    </a>
+    </router-link>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 hover:bg-gray-700 focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
