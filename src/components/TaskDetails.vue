@@ -52,10 +52,10 @@
             v-model="currentTask.category"
           >
             <option disabled value="">Please select one</option>
-            <option value="healthy">Salud</option>
-            <option value="events">Eventos</option>
-            <option value="dates">Citas</option>
-            <option value="work">Trabajo</option>
+            <option value="healthy">Healthy</option>
+            <option value="events">Events</option>
+            <option value="dates">Dates</option>
+            <option value="work">Work</option>
           </select>
           <div
             class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
