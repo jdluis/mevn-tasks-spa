@@ -26,3 +26,4 @@ dist-ssr
 # Segurity
 dist
 .env
+tasksDay.txt

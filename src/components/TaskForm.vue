@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
-            <textarea placeholder="Write a description" rows="5" v-model="task.description"
+            <textarea placeholder="Write a description" maxlength="100" rows="5" v-model="task.description"
             class="w-full"
             ></textarea>
         </div>

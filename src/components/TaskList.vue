@@ -31,23 +31,23 @@
                         </div>
                     </th>
                     <th>Title</th>
-                    <th class="hidden md:block">Description</th>
+                    <th class="hidden md:table-header-group">Description</th>
                     <th>Date of finish</th>
-                    <th class="hidden md:block">State</th>
+                    <th class="hidden lg:table-header-group">State</th>
                     <th>Config</th>
                 </tr>
             </thead>
             <tbody>
                 <tr
-                    class="text-center text-sm normal-case opacity-60"
+                    class="text-center text-xs sm:text-sm normal-case opacity-60"
                     v-for="(task, index) in filterCategory"
                     :key="index"
                 >
                     <td>{{ task.category }}</td>
                     <td>{{ task.title }}</td>
-                    <td class="hidden md:block">{{ task.description }}</td>
+                    <td class="hidden md:table-header-group ">{{ task.description }}</td>
                     <td>{{ formatDate(task.date) }}</td>
-                    <td @click="handleCheckboxStatus(task)" class="hidden md:block">
+                    <td @click="handleCheckboxStatus(task)" class="hidden lg:table-header-group">
                         <spam
                             class="cursor-pointer hover:opacity-50"
                             :style="task.status ? 'color: green' : 'color:#C55300'"
