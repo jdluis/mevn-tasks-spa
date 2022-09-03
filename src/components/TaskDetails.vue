@@ -1,6 +1,9 @@
 <template>
-  <div class=" pl-20 underline ">
-    <h1><span class="bg-green_normal">EDIT-></span> {{ currentTask.title }}</h1>
+  <div class="pl-20 underline">
+    <h1>
+      <span class="bg-green_normal">EDIT-></span>
+      {{ currentTask.title }}
+    </h1>
   </div>
 
   <form class="w-full lg:w-1/2 p-20 lg-p-0 lg:m-auto" @submit.prevent="handleUpdate()">
@@ -51,7 +54,7 @@
             id="grid-state"
             v-model="currentTask.category"
           >
-            <option disabled value="">Please select one</option>
+            <option disabled value>Please select one</option>
             <option value="healthy">Healthy</option>
             <option value="events">Events</option>
             <option value="dates">Dates</option>
@@ -71,11 +74,11 @@
         </div>
       </div>
     </div>
+    <div class="p-5 text-center">
+      <button class="bg-green_normal p-4 hover:bg-opacity-50">Update</button>
+      <button class="bg-red p-4 hover:bg-opacity-50" @click="handleDelete()">Delete</button>
+    </div>
   </form>
-  <div class="p-5 text-center">
-    <button class="bg-green_normal p-4 hover:bg-opacity-50">Update</button>
-    <button class="bg-red p-4 hover:bg-opacity-50" @click="handleDelete()">Delete</button>
-  </div>
 </template>
 
 <script lang="ts">

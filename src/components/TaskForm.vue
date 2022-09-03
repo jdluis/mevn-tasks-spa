@@ -23,10 +23,9 @@
                     type="date"
                     placeholder="Jane"
                     v-model="task.date"
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                    class="appearance-none block bg-gray-200 text-gray-700 border border-red-500 rounded py-3 mb-3 leading-tight focus:outline-none focus:bg-white"
                     id="grid-first-name"
                 />
-                <p>{{task.date}}</p>
             </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
@@ -51,7 +50,6 @@
                         <option value="dates">Dates</option>
                         <option value="work">Work</option>
                     </select>
-                    <p>{{task.category}}</p>
                     <div
                         class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
                     >
