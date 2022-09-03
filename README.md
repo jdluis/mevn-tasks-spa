@@ -26,13 +26,13 @@
    -------------------------------------------------------
    
    ## Functionalitys:
-   #### Get Tasks 
-   #### Create new Task
-   #### Filter from Tasks Category
-   #### Edit Task
-   #### Delete Task or Tasks
+   - Get Tasks 
+   - Create new Task
+   - Filter from Tasks Category
+   - Edit Task
+   - Delete Task or Tasks
    
    ## Future Functionalitys: 
-   #### Max of data allow per User
-   #### Authentications
+   - Max of data allow per User
+   - Authentications
  
