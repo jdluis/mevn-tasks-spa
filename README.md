@@ -22,3 +22,17 @@
    #### MongoDB (Atlas) --> mongoose
    #### TailwindCss
    #### dotenv
+   
+   -------------------------------------------------------
+   
+   ## Functionalitys:
+   #### Get Tasks 
+   #### Create new Task
+   #### Filter from Tasks Category
+   #### Edit Task
+   #### Delete Task or Tasks
+   
+   ## Future Functionalitys: 
+   #### Max of data allow per User
+   #### Authentications
+ 
